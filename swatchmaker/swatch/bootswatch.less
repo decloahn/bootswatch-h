@@ -5,18 +5,196 @@
 
 // TYPOGRAPHY
 // -----------------------------------------------------
+h3 { font-size: 22px; line-height: 40px; }
+h5 { font-size: 16px; line-height: 20px; }
+
+//change muted color
+.muted {
+    color: @gray;
+}
+
+//Change page header bottom border to be more visible
+.page-header {
+  border-color: @hrBorder;
+}
+
+//Color Fix for small blocktext
+h1, h2, h3, h4, h5, h6, blockquote {
+  small {
+    color: @gray;
+  }
+}
+
 
 // SCAFFOLDING
 // -----------------------------------------------------
+a:hover {
+  color: @linkColorHover;
+  text-decoration: underline;
+}
+
 
 // NAVBAR
 // -----------------------------------------------------
 
+
+// Inverted navbar
+// -------------------------
+.navbar-hoiio {
+  color: @navbarInverseText;
+
+  .navbar-inner {
+    #gradient > .vertical(@navbarHoiioBackgroundHighlight, @navbarHoiioBackground);
+    border-color: @navbarHoiioBorder;
+    .box-shadow(0 0 0)
+  }
+
+  .brand,
+  .nav > li > a {
+    color: @navbarHoiioLinkColor;
+
+    &:hover {
+      color: @navbarHoiioLinkColorHover;
+
+    }
+  }
+
+  .nav > li > a {
+  	padding: 10px 15px 6px;
+  }
+
+  .nav > li > a:focus,
+  .nav > li > a:hover {
+    background-color: @navbarHoiioLinkBackgroundHover;
+    color: @navbarHoiioLinkColorHover;
+    border-bottom: 4px solid darken(@navbarHoiioBackground, 10%);
+  }
+
+  .nav .active > a,
+  .nav .active > a:hover,
+  .nav .active > a:focus {
+    color: @navbarHoiioLinkColorActive;
+    background-color: @navbarHoiioLinkBackgroundActive;
+    .box-shadow(0 0 0);
+    border-bottom: 4px solid @linkColor;
+  }
+
+  // Inline text links
+  .navbar-link {
+    color: @navbarHoiioLinkColor;
+    &:hover {
+      color: @navbarHoiioLinkColorHover;
+    }
+  }
+
+
+  // Dividers in navbar
+  .divider-vertical {
+    border-left-color: @navbarHoiioBackground;
+    border-right-color: @navbarHoiioBackgroundHighlight;
+  }
+
+
+  // Dropdowns
+  .nav li.dropdown.open > .dropdown-toggle,
+  .nav li.dropdown.active > .dropdown-toggle,
+  .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: @navbarHoiioLinkBackgroundActive;
+    color: @navbarHoiioLinkColorActive;
+    border-bottom-color: transparent;
+  }
+  .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: @navbarHoiioLinkColor;
+    border-bottom-color: @navbarHoiioLinkColor;
+  }
+  .nav li.dropdown.open > .dropdown-toggle .caret,
+  .nav li.dropdown.active > .dropdown-toggle .caret,
+  .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color: @navbarHoiioLinkColorActive;
+    border-bottom-color: @navbarHoiioLinkColorActive;
+  }
+
+  // Navbar collapse button
+  .btn-navbar {
+    .buttonBackground(darken(@navbarHoiioBackgroundHighlight, 5%), darken(@navbarHoiioBackground, 5%));
+  }
+}
+
+
 // NAV
 // -----------------------------------------------------
 
+/*---Breadcrumbs---*/
+//Color Fix for breadcrumb's background color (change to #f1f1f1) & Fix for active text-color
+  .breadcrumb {
+    background-color: #f1f1f1;
+
+    .active{
+      color: @gray;
+    }
+  }
+
+
 // BUTTONS
 // -----------------------------------------------------
+.btn {
+  //Set all button radius to @btnRadius as set in "variables.less"
+	.border-radius(@btnRadius);
+
+  //Fix for hover effect on button
+  @backgroundHoverShift: 0px - @baseFontSize - @baseFontSize;
+
+  &:hover {
+    background-position: 0 @backgroundHoverShift;
+  }
+}
+
+
+//Special case for masthead button
+.masthead {
+  .btn {
+    &:hover {
+    background-position: 0 -58px;
+    }    
+  }
+
+}
+
+
+//Fix hover action for large button
+.btn-large {
+	padding: 9px 14px;
+
+	&:hover {
+		background-position: 0 -50px;
+	}
+}
+
+
+//Fix for btn-primary to look like platform's version
+.btn-primary {
+	border-color: @btnPrimaryBorder;
+}
+
+
+//New button type [Purchase], used for buying or subscribing to apps
+.btn-purchase {
+
+  .caret{
+    border-top-color: @white;
+    border-bottom-color: @white;
+  }
+
+	.buttonBackground(@btnPurchaseBackground, @btnPurchaseBackgroundHighlight);
+	.vertical-4-colors();
+}
+
+.btn-group.open {
+  .btn-purchase.dropdown-toggle {
+    background-color: @btnPurchaseBackgroundHighlight;
+  }  
+}
+
 
 // TABLES
 // -----------------------------------------------------
@@ -27,11 +205,95 @@
 // DROPDOWNS
 // -----------------------------------------------------
 
+//Fix so that icon on dropdown doesn't change to white
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"] {
+  background-image: url("@{iconSpritePath}");
+}
+
+//Set dropdown item hover action to have solid background instead of gradient
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a  {
+	#gradient > .vertical(@dropdownLinkBackgroundHover, @dropdownLinkBackgroundHover);
+}
+
+
 // ALERTS, LABELS, BADGES
 // -----------------------------------------------------
+
+//Fix for default label background-color. Make background darker
+  .label, badge {
+    background-color: @grayDark;
+  }
+
+//Fix for all other label types background-color. Restore respective color to the different types
+  .label,
+  .badge {
+    // Important (red)
+    &-important         { background-color: @errorText; }
+    &-important[href]   { background-color: darken(@errorText, 10%); }
+    // Warnings (orange)
+    &-warning           { background-color: @orange; }
+    &-warning[href]     { background-color: darken(@orange, 10%); }
+    // Success (green)
+    &-success           { background-color: @successText; }
+    &-success[href]     { background-color: darken(@successText, 10%); }
+    // Info (turquoise)
+    &-info              { background-color: @infoText; }
+    &-info[href]        { background-color: darken(@infoText, 10%); }
+    // Inverse (black)
+    &-inverse           { background-color: @grayDark; }
+    &-inverse[href]     { background-color: darken(@grayDark, 10%); }
+  }
 
 // MISC
 // -----------------------------------------------------
 
+//Changing Modal-backdrop so it doesn't darken everything behind
+.modal-backdrop {
+    background-color: transparent;
+}
+
+//Modify actual modal dialog to look like platform's
+.modal {
+    border-width: 10px;
+    border-color: rgba(0,0,0,0.6);
+}
+
+
+// MIXINS
+// -----------------------------------------------------
+
+//Modify mixin for .buttonBackground() method. Makes :hover background-color to darken only by 2%
+  .buttonBackground(@startColor, @endColor, @textColor: #fff, @textShadow: 0 -1px 0 rgba(0,0,0,.25)){
+    &:hover, &:active, &.active, &.disabled, &[disabled] {
+      background-color: darken(@endColor, 2%);
+      *background-color: darken(@endColor, 5%);
+    }
+  }
+
+//Mixin for 4 colors vertical linear gradient
+  .vertical-4-colors(@startColor: #e7b433, @mid-topColor: #e79c2c, @mid-topColorStop: 50%,  @mid-btmColor: #e59123, @mid-btmColorStop: 51%, @endColor: #e97926) {
+    background-color: mix(@mid-btmColor, @endColor, 80%);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), color-stop(@mid-topColorStop, @mid-topColor), color-stop(@mid-btmColorStop, @mid-btmColor), to(@endColor));
+    background-image: -webkit-linear-gradient(@startColor, @mid-topColor @mid-topColorStop, @mid-btmColor @mid-btmColorStop, @endColor);
+    background-image: -moz-linear-gradient(top, @startColor, @mid-topColor @mid-topColorStop, @mid-btmColor @mid-btmColorStop, @endColor);
+    background-image: -o-linear-gradient(@startColor, @mid-topColor @mid-topColorStop, @mid-btmColor @mid-btmColorStop, @endColor);
+    background-image: linear-gradient(@startColor, @mid-topColor @mid-topColorStop, @mid-btmColor @mid-btmColorStop, @endColor);
+    background-repeat: no-repeat;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down, gets no color-stop at all for proper fallback
+  }
+
+//Creates Sharp (non-rounded) corners
+  .sharpCorner {
+    .border-radius(0px);
+  }
+
+.test-custom{
+  opacity:1;
+  &:hover{
+  }
+}
 // MEDIA QUERIES
 // -----------------------------------------------------
