@@ -1,5 +1,7 @@
 //
 // Variables
+// Swatch: 
+// Version: 2.1.1
 // --------------------------------------------------
 
 
@@ -10,18 +12,19 @@
 // Grays
 // -------------------------
 @black:                 #000;
-@grayDarker:            #222;
-@grayDark:              #333;
-@gray:                  #555;
-@grayLight:             #999;
-@grayLighter:           #eee;
+@grayDarker:            #393939;
+@grayDark:              #595959;
+@gray:                  #999999;
+@grayLight:             #e8e8e8;
+@grayLighter:           #f1f1f1;
 @white:                 #fff;
 
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
+@blue:                  #0081c7;
+@blueLight:				#00a5ff;
+@blueDark:              #0084cc;
 @green:                 #46a546;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
@@ -38,18 +41,18 @@
 
 // Links
 // -------------------------
-@linkColor:             #08c;
-@linkColorHover:        darken(@linkColor, 15%);
+@linkColor:             @blue;
+@linkColorHover:        @blue;
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@sansFontFamily:        "Source Sans Pro", "Segoe UI", Calibri, "Lucida Grande", sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 @baseFontSize:          14px;
-@baseFontFamily:        @sansFontFamily;
+@baseFontFamily:		Source Sans Pro;	@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic");
 @baseLineHeight:        20px;
 @altFontFamily:         @serifFontFamily;
 
@@ -66,18 +69,25 @@
 
 // Buttons
 // -------------------------
-@btnBackground:                     @white;
-@btnBackgroundHighlight:            darken(@white, 10%);
+@btnRadius:							5px;
+
+@btnBackground:                     #EEEFF1;
+@btnBackgroundHighlight:            #DADCE1;
 @btnBorder:                         #bbb;
 
-@btnPrimaryBackground:              @linkColor;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
+@btnPrimaryBackground:              @blueLight;
+@btnPrimaryBackgroundHighlight:     @blueDark;
+@btnPrimaryBorder:					#0f6597;
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
 
 @btnSuccessBackground:              #62c462;
 @btnSuccessBackgroundHighlight:     #51a351;
+
+@btnPurchaseBackground:				#e3ac2c;
+@btnPurchaseBackgroundHighlight:	#e97926;
+@btnPurchaseBorder:					#f05a26;
 
 @btnWarningBackground:              lighten(@orange, 15%);
 @btnWarningBackgroundHighlight:     @orange;
@@ -92,8 +102,8 @@
 // Forms
 // -------------------------
 @inputBackground:               @white;
-@inputBorder:                   #ccc;
-@inputBorderRadius:             3px;
+@inputBorder:                   #CCC;
+@inputBorderRadius:             5px;
 @inputDisabledBackground:       @grayLighter;
 @formActionsBackground:         #f5f5f5;
 
@@ -105,11 +115,11 @@
 @dropdownDividerBottom:         @white;
 
 @dropdownLinkColor:             @grayDark;
-@dropdownLinkColorHover:        @white;
+@dropdownLinkColorHover:        @linkColor;
 @dropdownLinkColorActive:       @dropdownLinkColor;
 
 @dropdownLinkBackgroundActive:  @linkColor;
-@dropdownLinkBackgroundHover:   @dropdownLinkBackgroundActive;
+@dropdownLinkBackgroundHover:   @grayLighter;
 
 
 
@@ -136,12 +146,12 @@
 
 // Input placeholder text color
 // -------------------------
-@placeholderText:         @grayLight;
+@placeholderText:         @gray;
 
 
 // Hr border color
 // -------------------------
-@hrBorder:                @grayLighter;
+@hrBorder:                @grayLight;
 
 
 // Horizontal forms & lists
@@ -190,6 +200,25 @@
 @navbarInverseSearchPlaceholderColor:    #ccc;
 
 @navbarInverseBrandColor:                @navbarInverseLinkColor;
+
+// Hoiio navbar
+@navbarHoiioBackground:                #F1F1F1;
+@navbarHoiioBackgroundHighlight:       #F1F1F1;
+@navbarHoiioBorder:                    @grayLight;
+
+@navbarHoiioText:                      @grayDark;
+@navbarHoiioLinkColor:                 @grayDark;
+@navbarHoiioLinkColorHover:            @linkColor;
+@navbarHoiioLinkColorActive:           @navbarHoiioLinkColorHover;
+@navbarHoiioLinkBackgroundHover:       transparent;
+@navbarHoiioLinkBackgroundActive:      @navbarHoiioBackground;
+
+@navbarHoiioSearchBackground:          lighten(@navbarHoiioBackground, 25%);
+@navbarHoiioSearchBackgroundFocus:     @white;
+@navbarHoiioSearchBorder:              darken(@navbarHoiioBackground, 10%);
+@navbarHoiioSearchPlaceholderColor:    @gray;
+
+@navbarHoiioBrandColor:                @navbarHoiioLinkColor;
 
 
 // Pagination
