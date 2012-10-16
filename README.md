@@ -7,10 +7,11 @@ Usage
 Download the compiled bootstrap.zip from Twitter's Bootstrap page
 
 In "swatchmaker/swatch" directory, you'll find four css files:
- -bootstrap.css
- -bootstrap.min.css
- -bootstrap-responsive.css
- -bootstrap-responsive.min.css
+
+ + bootstrap.css
+ + bootstrap.min.css
+ + bootstrap-responsive.css
+ + bootstrap-responsive.min.css
 
 Copy these files, and replace the original css from stock Bootstrap.
 
