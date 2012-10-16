@@ -9,6 +9,9 @@ bootswatch:
 	lessc --compress  swatchmaker.less > ${OUTPUT_PATH}/bootstrap.min.css
 	lessc swatchmaker-responsive.less > ${OUTPUT_PATH}/bootstrap-responsive.css
 	lessc --compress  swatchmaker-responsive.less > ${OUTPUT_PATH}/bootstrap-responsive.min.css
+	#Compile customized bootstrap into Bootstrap/docs/assets/css
+	lessc swatchmaker.less > bootstrap/docs/assets/css/bootstrap.css
+	lessc --compress swatchmaker.less > bootstrap/docs/assets/css/bootstrap.min.css
 
 bootstrap:
 	-test -d bootstrap && rm -r bootstrap
