@@ -1,0 +1,513 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"com",
+				"compress"
+			],
+			[
+				"swatch",
+				"swatchmaker"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"border-bt",
+				"border-bottom"
+			],
+			[
+				"border-",
+				"border-image-source"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "swatchmaker/bootstrap/less/bootswatch.less",
+			"settings":
+			{
+				"buffer_size": 8077,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "swatchmaker/bootstrap/less/bootstrap.less",
+			"settings":
+			{
+				"buffer_size": 1540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "swatchmaker/bootstrap/less/variables.less",
+			"settings":
+			{
+				"buffer_size": 10207,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "swatchmaker/bootstrap/less/buttons.less",
+			"settings":
+			{
+				"buffer_size": 5232,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "swatchmaker/bootstrap/less/dropdowns.less",
+			"settings":
+			{
+				"buffer_size": 5647,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "swatchmaker/bootstrap/less/sprites.less",
+			"settings":
+			{
+				"buffer_size": 10713,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/button-groups.less",
+		"/C/Users/Minh Danh/Desktop/style.css",
+		"/E/GitHub/PencilStencilHoiio/Pencil_Stencils/web/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/definition_850_1351506102463/definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/FontAwesome_874_1350876972136/Definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/Flowchart/Definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/Common/Definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/BasicWebElements/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/web_716_1350899819643/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/definition_102_1351496539413/definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/propertyType/dimension.js",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/propertyType/css.js",
+		"/C/Users/Minh Danh/Desktop/iOS.GUI_v2/Definition.xml",
+		"/C/Users/Minh Danh/Desktop/Font-Awesome-2.0/Font-Awesome-2.0/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/Test/definition.xml",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/bootswatch.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/buttons.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/test/docs.css",
+		"/E/GitHub/bootswatch-h/swatchmaker/test/test.html",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/docs/components.html",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/docs/base-css.html",
+		"/E/GitHub/bootswatch-h/swatchmaker/Makefile",
+		"/E/GitHub/bootswatch-h/README.md",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/variables.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/swatch/bootstrap.css",
+		"/E/GitHub/bootswatch-h/swatchmaker/swatchmaker.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/swatchmaker-responsive.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/responsive.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/bootswatch.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/variables.less",
+		"/E/GitHub/bootswatch/swatchmaker/test/test.html",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/base-css.html",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/labels-badges.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/breadcrumbs.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/navbar.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/buttons.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/mixins.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/modals.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/scaffolding.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/bootstrap.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/sprites.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/assets/js/bootstrap-modal.js",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/assets/css/bootstrap.min.css",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/assets/css/bootstrap.css",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/forms.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/dropdowns.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/type.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/button-groups.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/grid.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/layouts.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/hero-unit.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/pager.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/code.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/utilities.less",
+		"/E/GitHub/bootswatch/swatchmaker/test/test-full.html",
+		"/E/GitHub/bootswatch/swatchmaker/swatchmaker.less",
+		"/C/Users/Minh Danh/AppData/Roaming/npm/node_modules/less/lib/less/parser.js",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/variables.less",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/bootswatch.less",
+		"/E/GitHub/bootswatch/swatchmaker/Makefile",
+		"/E/Hoiio/Tez folder/Random Images/Test Banner Home/namecard.html",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/United/variables.less",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/United/bootswatch.less",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/bootstrap.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"enum",
+			"Property name=\"color\"",
+			"$color",
+			"Property Name=\"color\"",
+			"displayName=\"text",
+			"pane",
+			"data:image/svg+xml;charset=utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; id=&quot;glyph&quot; width=&quot;32&quot; height=&quot;32&quot; viewBox=&quot;0 0 2048 2048&quot;&gt;&lt;text x=&quot;0&quot; y=&quot;6&quot; text-size=&quot;18&quot; style=&quot;fill:black&quot;&gt;NAV&lt;/text&gt;&lt;/svg&gt;",
+			">",
+			"<",
+			"\"",
+			"&quot;",
+			"&gt;",
+			"&lt;",
+			"lorem ipsum",
+			"table",
+			"visibility",
+			"DEFAULTfONT14bold",
+			"user",
+			"defaultfont14bold",
+			"Cdata",
+			"rich",
+			"<svg",
+			"$radius.x",
+			"pane",
+			"radius.x",
+			"pane",
+			"toOriginalSize",
+			"shortcut",
+			"rich text",
+			"richtext",
+			"<attr",
+			"width",
+			"<Visibi",
+			"mask",
+			"blur",
+			"mask",
+			"width",
+			"textcolor",
+			"box",
+			"<box>",
+			"<box",
+			"App Icon",
+			"warning",
+			"purchase",
+			"heading",
+			"buttons",
+			"box-shadow",
+			"searchbackgroundfocus",
+			"navbarInverse",
+			"radius",
+			"warning",
+			"@WHITE",
+			"btn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Property name=\"fillColor\"",
+			"$fillColor",
+			"Property Name=\"fillColor\"",
+			"&gt;",
+			"&lt;",
+			"&quot;",
+			"\"",
+			">",
+			"<",
+			"$borderRadius.w",
+			"radius.value",
+			"purchase",
+			"navbarHoiio",
+			"purchase"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "swatchmaker/bootstrap/less/bootswatch.less",
+					"settings":
+					{
+						"buffer_size": 8077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "swatchmaker/bootstrap/less/bootstrap.less",
+					"settings":
+					{
+						"buffer_size": 1540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1444,
+								1444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "swatchmaker/bootstrap/less/variables.less",
+					"settings":
+					{
+						"buffer_size": 10207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4201,
+								4201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1707.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "swatchmaker/bootstrap/less/buttons.less",
+					"settings":
+					{
+						"buffer_size": 5232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								944,
+								944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "swatchmaker/bootstrap/less/dropdowns.less",
+					"settings":
+					{
+						"buffer_size": 5647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5340,
+								5340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 795.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "swatchmaker/bootstrap/less/sprites.less",
+					"settings":
+					{
+						"buffer_size": 10713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1928,
+								1928
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 118.0,
+	"status_bar_visible": true
+}
