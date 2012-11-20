@@ -5229,7 +5229,7 @@ a:hover {
   background-image: -o-linear-gradient(#e7b433, #e79c2c 50%, #e59123 51%, #e97926);
   background-image: linear-gradient(#e7b433, #e79c2c 50%, #e59123 51%, #e97926);
   background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe7b433', endColorstr='#ffe97926', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-purchase .caret {
   border-top-color: #ffffff;
