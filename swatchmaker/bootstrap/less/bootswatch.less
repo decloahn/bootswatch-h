@@ -187,6 +187,7 @@ a:hover {
 
 	.buttonBackground(@btnPurchaseBackground, @btnPurchaseBackgroundHighlight);
 	.vertical-4-colors();
+  .reset-filter();
 }
 
 .btn-group.open {
@@ -282,7 +283,6 @@ a:hover {
     background-image: -o-linear-gradient(@startColor, @mid-topColor @mid-topColorStop, @mid-btmColor @mid-btmColorStop, @endColor);
     background-image: linear-gradient(@startColor, @mid-topColor @mid-topColorStop, @mid-btmColor @mid-btmColorStop, @endColor);
     background-repeat: no-repeat;
-    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down, gets no color-stop at all for proper fallback
   }
 
 //Creates Sharp (non-rounded) corners
