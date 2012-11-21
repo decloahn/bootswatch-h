@@ -4,16 +4,20 @@ Bootstrap theme for Hoiio
 
 Usage
 -----
-Download the compiled bootstrap.zip from Twitter's Bootstrap page
+Download all the necessary files from folder:
 
-In "swatchmaker/swatch" directory, you'll find four css files:
+"bootstrap-hoiio"
 
- + bootstrap.css
- + bootstrap.min.css
- + bootstrap-responsive.css
- + bootstrap-responsive.min.css
 
-Copy these files, and replace the original css from stock Bootstrap.
+"bootstrap-hoiio" folder structure:
++ css {subfolder}
+	+ Contains 4 css files
+
++ img {subfolder}
+	+ Contains images for icon-sprites
+
++js {subfolder}
+	+ Contains all javascript files
 
 
 
