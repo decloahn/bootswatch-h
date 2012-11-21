@@ -8,16 +8,7 @@ Download all the necessary files from folder:
 
 "bootstrap-hoiio"
 
-
-"bootstrap-hoiio" folder structure:
-+ css {subfolder}
-	+ Contains 4 css files
-
-+ img {subfolder}
-	+ Contains images for icon-sprites
-
-+js {subfolder}
-	+ Contains all javascript files
+All the required CSS files, Images, and JS files are in that folder.
 
 
 
