@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic");
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
 audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
 audio:not([controls]){display:none;}
@@ -867,6 +867,7 @@ a:hover{color:#0081c7;text-decoration:underline;}
 .btn-purchase:active,.btn-purchase.active{background-color:#c86114 \9;}
 .btn-purchase:hover,.btn-purchase:active,.btn-purchase.active,.btn-purchase.disabled,.btn-purchase[disabled]{background-color:#e8731d;*background-color:#df6c17;}
 .btn-group.open .btn-purchase.dropdown-toggle{background-color:#e97926;}
+select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input{display:inline-block;height:20px;padding:4px 6px;margin-bottom:10px;font-size:14px;line-height:20px;color:#595959;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;vertical-align:middle;}
 .dropdown-menu>li>a:hover>[class^="icon-"],.dropdown-menu>li>a:hover>[class*=" icon-"]{background-image:url("../img/glyphicons-halflings.png");}
 .dropdown-menu li>a:hover,.dropdown-menu li>a:focus,.dropdown-submenu:hover>a{background-color:#f1f1f1;background-image:-moz-linear-gradient(top, #f1f1f1, #f1f1f1);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#f1f1f1));background-image:-webkit-linear-gradient(top, #f1f1f1, #f1f1f1);background-image:-o-linear-gradient(top, #f1f1f1, #f1f1f1);background-image:linear-gradient(to bottom, #f1f1f1, #f1f1f1);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff1f1f1', endColorstr='#fff1f1f1', GradientType=0);}
 .label,badge{background-color:#595959;}
