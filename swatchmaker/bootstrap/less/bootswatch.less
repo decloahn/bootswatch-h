@@ -120,6 +120,33 @@ a:hover {
   }
 }
 
+// BLUE NAVBAR
+.navbar-hoiio-blue {
+  .navbar;
+  color: @navbarText;
+
+  .nav > li > a {
+    text-shadow: none;
+  }
+
+  .nav .active > a,
+  .nav .active > a:hover,
+  .nav .active > a:focus {
+    color: @navbarHoiioLinkColorActiveBlue;
+    background-color: @blueLight;
+  }
+
+  .nav > li > a:hover {
+    color: @gray;
+    background-color: @navbarHoiioLinkBackgroundHoverBlue;
+    box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  }
+
+  .navbar-inner > .container > .icon {
+    padding: 5px 10px 0px;
+  }
+}
 
 // NAV
 // -----------------------------------------------------
